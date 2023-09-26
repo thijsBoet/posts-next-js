@@ -1,7 +1,5 @@
 import prisma from '@/lib/prisma';
-
 import Post from './components/Post';
-
 import styles from './page.module.css';
 
 async function getPost() {

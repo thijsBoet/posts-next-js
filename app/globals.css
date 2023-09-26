@@ -1,5 +1,5 @@
 :root {
-  --max-width: 500px;
+  --max-width: ;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
@@ -108,10 +108,10 @@ a {
 
 .post {
   margin-top: 2em;
-  width: var(--max-width);
-  border: 1px solid rgb(var(--card-border-rgb));
+  width: 500px;
+  border: 1px solid rgb(131, 134, 135);
   padding: 1rem;
-  border-radius: var(--border-radius);
+  border-radius: 12px;
 }
 
 .title-post {
@@ -122,4 +122,35 @@ a {
 .author-post {
   font-style: italic;
   font-size: 0.85rem;
+}
+
+.btn {
+  padding: 0.5rem;
+  margin-top: 1rem;
+  width: 100%;
+  cursor: pointer;
+  max-width: 500px;
+}
+
+.add-post-form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.header1 {
+  margin-bottom: 2rem;
+}
+
+.delete {
+  background-color: #f94449;
+  color: white;
+  border: 0px;
+}
+
+input, textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  width: 500px;
+  border: 1px solid rgb(131, 134, 135);
 }
